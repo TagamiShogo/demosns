@@ -1,0 +1,273 @@
+body{
+    font-family:Quicksand, sans-serif;
+}
+
+header{
+    background-color:lightgray;
+    width:100%;
+    height:60px;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+    font-size:30px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main{
+    margin-top:80px;
+}
+
+/* ----------投稿--------------*/
+main .post-main{
+    width:97%;
+    height:350px;
+    margin-bottom:30px;
+    background-color:skyblue;
+    padding-left:30px;
+    padding-top:20px;
+    line-height: 30px;
+    color:gray;
+}
+
+main .post-main p{
+    font-size:10px;
+}
+
+main .post-main label{
+    border-left:3px solid red;
+    padding-left:10px;
+}
+
+main .post-main .input-area{
+    margin-left:20px;
+}
+
+
+main .square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    font-family: inherit;
+}
+main .square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    font-family: inherit;
+}
+
+/* ----------iPhone--------------*/
+.iphone-wrapper{
+    float:left;
+    background-color:gray;
+    width:32%;
+    height:650px;
+    margin-right:1.5%;
+    padding-top:50px;
+}
+.spbody{
+    margin:0 auto;
+    width: 345px; /*230->345*/
+    background: #111;
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid #C4C4C4;
+    }
+.spbody .partsbd{
+    width: 275px; /*190->275*/
+    margin: 0 auto;
+    }
+.spbody .partshd{
+    height: 10px;
+    margin: 30px 0; 
+    text-align: center; 
+    position: relative;
+}
+.spbody .partsbd .partsspe,.spbody .partsbd .partscam{
+    height: 10px; 
+    background: #333; 
+    border-radius: 10px; 
+    display: inline-block; 
+    position: absolute; 
+    top: 0; left:50%;
+}
+.spbody .partsbd .partsspe{
+    width: 10px;
+    margin-left:-20px
+}
+.spbody .partsbd .partscam{
+    width: 50px;
+    margin-left:-10px
+}
+.spbody .partsvw{
+    height: 450px;  /*300->450*/
+    background: white;
+    overflow: auto;
+}
+
+.spbody .partsvw .post{
+    border:1px solid black;
+    padding-left:3px;
+    
+}
+
+.spbody .partsvw .username{
+    color:lightgray;
+    padding-top:5px;
+    text-align: right;
+}
+
+
+.spbody .partsbtn{
+    width: 60px; 
+    height: 50px; 
+    border-radius: 60px; 
+    background: #333; 
+    margin: 15px auto;
+}
+.spbody .parts{
+    position: absolute; 
+    background: #ccc; 
+    top: 30%; 
+    left: 50%;
+}
+.spbody .parts1{
+    width: 40px; 
+    height: 3px; 
+    margin: -230px 0 0 40px;
+}
+.spbody .parts2{
+    width: 4px; 
+    height: 20px; 
+    margin: -170px 0 0 -120px;
+}
+.spbody .parts3{
+    width: 4px; 
+    height: 15px; 
+    margin: -130px 0 0 -120px;
+}
+.spbody .parts4{
+    width: 4px; 
+    height: 15px; 
+    margin: -90px 0 0 -120px;
+}
+/* ----------Pad--------------*/
+.pad-wrapper{
+    float:left;
+    background-color:yellow;
+    width:32%;
+    height:700px;
+    margin-right:1.5%;
+}
+
+.padbody{
+margin-left:70px;
+margin-top:50px;
+float:left;
+width: 400px;
+background: #111;
+border-radius: 30px;
+padding: 50px 0 0 0;
+overflow: hidden;
+}
+
+.padbody .partsvw{
+width: 360px;
+height: 450px;
+margin: 0 auto;
+background: white;
+}
+.padbody .partsbtn{
+width: 30px;
+height: 30px;
+border-radius: 30px;
+background: #333;
+margin: 15px auto;
+}
+
+.padbody .partsvw{
+    height: 450px;  /*300->450*/
+    background: white;
+    overflow: auto;
+}
+
+.padbody .partsvw .post{
+    border:1px solid black;
+    padding-left:3px;
+    
+}
+
+.padbody .partsvw .username{
+    color:lightgray;
+    padding-top:5px;
+    text-align: right;
+}
+/* ----------PC--------------*/
+.pc-wrapper{
+    float:left;
+    background-color:gray;
+    width:32%;
+    height:700px;
+}
+.pcbody {
+    width: 500px;
+    margin-left:30px;
+    margin-top:100px;
+}
+.pcbody .partsvw {
+    background: #111;
+    padding: 20px 0;
+    border-radius: 20px 20px 0px 0px;
+    margin: 30px 0 0 0; 
+    position: relative; 
+}
+.pcbody .partsliquid{
+    width: 450px; 
+    background: white;
+    height: 270px; 
+    margin: 0 auto; 
+    overflow: auto;
+}
+
+.pcbody .partsvw .post{
+    border:1px solid black;
+    padding-left:3px;
+
+}
+
+.pcbody .partsvw .username{
+    color:lightgray;
+    padding-top:5px;
+    text-align: right;
+}
+
+.pcbody .partsicon {
+    background: #eaeaea;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+}
+.pcbody .partsft div{
+    margin: 0 auto;
+    background: #eaeaea;
+    width: 100px;
+}
+.pcbody .partsft .parts1 {
+    height: 10px;
+    background: #ccc;
+}
+.pcbody .partsft .parts2 {
+    height: 20px;
+}
+.pcbody .partsft .parts3 {
+    height: 5px;width: 200px;
+}
